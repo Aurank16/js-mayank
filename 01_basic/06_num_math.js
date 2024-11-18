@@ -46,7 +46,4 @@ const min =10
 console.log(Math.floor(Math.random()*(max-min)+1)+min)
 /* we do multiply by (max-min) to specify range & +1 to avoid 0 value
 but it again similar to above case so we add another "min" to   
-
-
-
-
+*/
