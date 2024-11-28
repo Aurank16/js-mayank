@@ -42,8 +42,53 @@ const user1 = [
 ];
 console.log(user1[2].rollNo2)
 
-//**********************************************/
 
 console.log(tinderUser)
 console.log(Object.keys(tinderUser)); //print all keys value
 console.log(Object.values(tinderUser)); // print all values
+
+//****************** Destructuring of object  **************************
+
+const course = {
+  courseNmae:"javasccript",
+  price: 999,
+  courseInstructor:"mayank",
+
+}
+// const{courseInstructor}=course
+//console.log(courseInstructor)// value will be same
+const{courseInstructor:instructor}= course // destructing
+console.log(instructor)
+
+
+//****************** API ************************************
+/*
+->An API (Application Programming Interface) is like a waiter in a 
+restaurant. When you want something (like data or functionality), you tell
+ the waiter (the API), and they bring it to you from the kitchen (the server).
+Key Points about APIs:
+•	Communication: APIs help different software talk to each other.
+•	Requests and Responses: You send a request to the API, and it sends back a response with the information you need.
+•	Common Use: Many websites and apps use APIs to get data, like weather information or user profiles.
+*/
+
+
+//JSON -> JSON is the common formate used by api to communicate 
+
+
+//JSON FORMATE
+const json=
+{
+  "name": "mayank",
+  "subject" : "apijson"
+}
+
+// In array
+const arrayJson=
+[
+  {
+    "mani":"dshibd"
+  }
+]
+ 
+
