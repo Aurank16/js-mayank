@@ -41,6 +41,11 @@ myCoding.forEach( (item) => {
     
     console.log(item.languageName);
 } )
+// o/p:-
+// javascript
+// java
+// python
+
 
 // here for each loop made very easy to excess obj inside the array
 
