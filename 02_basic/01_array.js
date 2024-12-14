@@ -1,4 +1,4 @@
-// ARRAY
+ // ARRAY
 
 const myArray = [3,5,6,8,9]
 
@@ -55,7 +55,3 @@ Negative indices can be used to count from the end of the array.
 */
 
 //splice :-
-
-
-
-
