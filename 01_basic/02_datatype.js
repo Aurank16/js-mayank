@@ -3,7 +3,6 @@
 // alert(3+3) // we are using node.js not browser'
 
 console.log(3+3);console.log("hello") // this is ryt bt not in not standerd way.
-
 let name ="mayank"
 let age = 23
 let isLoggedIn= false // there all are ex of datatype

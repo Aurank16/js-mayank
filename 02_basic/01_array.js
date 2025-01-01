@@ -25,7 +25,7 @@ console.log(myArray)
  console.log(myArray.indexOf(6)) // 2 (coz it is on 2nd index)
 
 
- const newArray = myArray.join() // convert arry into string
+ const newArray = myArray.join() // convert array into string
  console.log(myArray) // same array output
  console.log(newArray)// same output but in sting form
  console.log(typeof newArray)

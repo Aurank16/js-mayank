@@ -11,7 +11,7 @@ not good to use.
 accountEmail="hvvv@gmzil.com"
 acccountCity="varanasi"
 accountPassword=88888
-console.log(accountId)
+console.log(accountPassword)
 
 /*
 Prefered to use let insted of var

@@ -2,6 +2,7 @@ let score = null
  console.log(typeof score)
  console.log(typeof(score))
  // they both will give same o/p:- i.e number
+ 
 
 let valueInNumber = Number(score)//whatever the value is will converted into number
  console.log(typeof  valueInNumber)//here score is "33"(string) bt then also it give num

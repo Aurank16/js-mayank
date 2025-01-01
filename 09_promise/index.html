@@ -1,0 +1,49 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+
+
+    <script  > 
+    function asyn1(){
+      return new Promise((resolve, reject) => {
+         setTimeout(()=>{
+            console.log('data1')
+            resolve('sucess')
+         },4000)
+      })
+    }
+    function asyn2(){
+      return new Promise((resolve, reject) => {
+         setTimeout(()=>{
+            console.log('data2')
+            resolve('sucess')
+         },4000)
+      })
+    }
+    // promise chain
+
+
+    console.log('fetching data1')
+   asyn1().then((res)=>{
+      return asyn2().then((res)=>{
+
+      })
+
+    })
+
+     
+
+
+    
+    
+
+  
+
+    </script>
+ </body>
+ </html>

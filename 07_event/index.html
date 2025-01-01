@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>my name is mayank</h1>
+    <button id="button">stop</button>
+
+
+
+    
+    <script>
+      const changeText = function () {
+        document.querySelector("h1").innerHTML = "the great mayank";
+      };
+      stopTimeout = setTimeout(changeText, 3000);
+
+      const button1 = document.querySelector("#button");
+      button1.addEventListener("click", function () {
+        clearTimeout(stopTimeout);
+      });
+    </script>
+  </body>
+</html>
